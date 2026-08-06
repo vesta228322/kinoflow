@@ -62,7 +62,8 @@ defineEmits(['update:modelValue'])
 .modal-content {
   background: var(--bg-card);
   border: 1px solid var(--border);
-  border-radius: var(--radius-2xl);
+  /* border-radius: var(--radius-2xl); */
+  border-radius: 20px;
   padding: 2.5rem;
   max-width: 500px;
   width: 100%;
